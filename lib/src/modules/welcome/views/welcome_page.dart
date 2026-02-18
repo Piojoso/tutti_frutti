@@ -9,7 +9,7 @@ class WelcomePage extends StatelessWidget {
       appBar: AppBar(title: Text('TuTTI FruTTi')),
       body: Center(child: Text('Welcome to TuTTi FruTTi')),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => {/* Change page to new_game page*/},
+        onPressed: () => {Navigator.pushNamed(context, '/new_game')},
         child: Icon(Icons.add),
       ),
     );
