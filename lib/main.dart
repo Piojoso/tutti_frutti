@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tutti_futti_game/src/routes/routes.dart';
+import 'package:tutti_futti_game/routes/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +13,20 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tutti Frutti Game',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      theme: ThemeData(
+        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.indigo,
+          iconTheme: IconThemeData(color: Colors.white),
+          titleTextStyle: TextStyle(
+            color: Colors.white,
+            fontSize: 25,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ),
       routes: appRoutes,
-      initialRoute: 'welcome',
+      initialRoute: '/',
     );
   }
 }
