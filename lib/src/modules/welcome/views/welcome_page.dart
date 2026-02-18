@@ -6,6 +6,7 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text('TuTTI FruTTi')),
       body: Center(child: Text('Welcome to TuTTi FruTTi')),
       floatingActionButton: FloatingActionButton(
         onPressed: () => {/* Change page to new_game page*/},
