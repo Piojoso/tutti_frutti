@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:tutti_futti_game/src/modules/create_new_game/page/create_new_game.dart';
+import 'package:tutti_futti_game/src/modules/welcome/views/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Tutti Frutti Game',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      // home: CreateNewGame(),
+      home: WelcomePage(),
     );
   }
 }
