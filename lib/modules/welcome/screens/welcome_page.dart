@@ -7,10 +7,7 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('TuTTI FruTTi')),
-      body: Container(
-        decoration: BoxDecoration(color: Color(0xFFFAFAFA)),
-        child: Center(child: Text('Welcome to TuTTi FruTTi')),
-      ),
+      body: Center(child: Text('Welcome to TuTTi FruTTi')),
       floatingActionButton: FloatingActionButton(
         onPressed: () => {Navigator.pushNamed(context, '/new_game')},
         child: Icon(Icons.add),
