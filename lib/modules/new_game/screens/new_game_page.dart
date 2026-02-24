@@ -17,7 +17,7 @@ class NewGamePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('New Game')),
+      appBar: AppBar(title: Text('Nueva Partida')),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -46,11 +46,11 @@ class NewGamePage extends StatelessWidget {
                     ListView.separated(
                       shrinkWrap: true,
                       itemCount: gameCategories.length,
-                      separatorBuilder: (_, _) => Divider(),
+                      separatorBuilder: (_, _) => Divider(height: 2),
                       itemBuilder: (BuildContext context, int index) {
                         final category = gameCategories[index];
 
-                        return ListTile(title: Text(category));
+                        return CustomTile(category: category);
                       },
                     ),
                   ],
