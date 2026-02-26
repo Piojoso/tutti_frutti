@@ -1,2 +1,2 @@
-export 'package:tutti_futti_game/modules/common/widgets/custom_card.dart';
-export 'package:tutti_futti_game/modules/common/widgets/custom_tile.dart';
+export 'package:tutti_frutti_game/modules/common/widgets/custom_card.dart';
+export 'package:tutti_frutti_game/modules/common/widgets/custom_tile.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tutti_futti_game/routes/routes.dart';
-import 'package:tutti_futti_game/theme/theme_data.dart';
+import 'package:tutti_frutti_game/routes/routes.dart';
+import 'package:tutti_frutti_game/theme/theme_data.dart';
 
 void main() {
   runApp(const MyApp());

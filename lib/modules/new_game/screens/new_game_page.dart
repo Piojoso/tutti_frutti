@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tutti_futti_game/modules/common/widgets/custom_widgets.dart';
+import 'package:tutti_frutti_game/modules/common/widgets/custom_widgets.dart';
 
 class NewGamePage extends StatelessWidget {
   const NewGamePage({super.key});
